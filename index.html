@@ -1,1 +1,25 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoot Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="scoreboard">
+            <div id="player1-score" class="score">Player 1 Score: 0</div>
+            <div id="timer" class="timer">Time: 60s</div>
+            <div id="player2-score" class="score">Player 2 Score: 0</div>
+        </div>
+        <canvas id="game" width="600" height="600"></canvas>
+    </div>
+    <div id="controls-info">
+        <h2>Controls</h2>
+        <p><strong>Player 1:</strong> Move with Arrow keys, Shoot with Space</p>
+        <p><strong>Player 2:</strong> Move with WASD keys, Shoot with Enter</p>
+    </div>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
